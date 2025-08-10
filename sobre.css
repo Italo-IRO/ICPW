@@ -1,11 +1,17 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding: 30px;
+    width: 940px;
 }
 
-h1{
+.coloridos{
     color: #3D3D3D;
     background-color: #E1EDF2;
+    padding: 10px;
+     border-bottom: none;
 }
+
 
 h2{
     border-bottom: solid;
@@ -17,11 +23,30 @@ figure{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 30px;
+    padding: 15px;
+}
+
+#matriz{
+    width: 550px;
+    margin: 0 auto;
+}
+
+#familia{
+    width: 275px;
+    float: right;
+    
+}
+
+figure img {
+    max-width: 100%;
 }
 
 figcaption{
     color: lightgrey;
+    margin-top: 10px;
 }
+
 
 
 
